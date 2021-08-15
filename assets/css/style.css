@@ -1,0 +1,145 @@
+/*************************** google fonts *****************************/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/*************************** Basic Css Rules *****************************/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff;
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+/* Header area css start here */
+
+header.header-area {
+    background-color: #264653;
+    padding: 60px 0 100px;
+}
+
+
+.intro-text small {
+    margin-bottom: 12px;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.intro-text h1 {
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.intro-text p {
+    text-align: justify;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 22px;
+}
+
+.btn-bg {
+    background-color: #E76F51;
+    color: #fff;
+    padding: 10px 35px;
+    font-weight: 500;
+    transition: all 0.5s ease-in-out;
+}
+
+.btn-bg:hover {
+    color: #fff;
+    transform: scale(0.9);
+}
+/* Header area css end here */
+
+/* featured-bike-section start here */
+
+.featured-bike-section {
+    padding: 65px 0;
+}
+
+.section-title {
+    margin-bottom: 80px;
+}
+
+.section-title h2 {
+    font-size: 42px;
+    font-weight: 600;
+}
+
+.section-title h6 {
+    color: #E76F51;
+    font-size: 14px;
+    font-weight: 600;
+    position: relative;
+}
+
+.section-title h6::after {
+    content: "";
+    position: absolute;
+    background-color: #e76f51cc;
+    width: 15%;
+    height: 2px;
+    left: 43%;
+    top: 112%;
+}
+
+.grayscale {
+    filter: grayscale(100%);
+}
+
+/* featured-bike-section end here */
+
+section.clients-section {
+    padding: 100px 0;
+}
+
+.all-client span {
+    color: #E77C40;
+    font-size: 22px;
+}
+
+/* clients-section end here */
+
+section.newsletter-section {
+    padding: 70px 0px;
+    background-image: url(../images/newsletter.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section.newsletter-section .section-title {
+    margin: 0;
+}
+
+.newsletter-form .form-control {
+    border-radius: 2.25rem;
+}
+
+.newsletter-form .btn {
+    border-radius: 0rem 2.25rem 2.25rem 0rem;
+}
+
+/* newsletter-section end here */
+
+.app-store-link .icon i {
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+.app-store-link .text h6 {
+    font-size: 10px;
+}
+
+.app-store-link .text h3 {
+    font-size: 14px;
+}
+/* footer-section end here */
